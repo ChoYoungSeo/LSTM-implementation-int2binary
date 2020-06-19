@@ -118,4 +118,5 @@ synapse_f -= synapse_f_update * alpha synapse_v -= synapse_v_update * alpha syna
         out = 0
         for index,x in enumerate(reversed(d)):
             out += x*pow(2,index)
-print (str(a_int) + " + " + str(b_int) + " = " + str(out)) print ("------------")
+        print (str(a_int) + " + " + str(b_int) + " = " + str(out)) 
+        print ("------------")
